@@ -1,0 +1,40 @@
+.DS_Store
+
+#.gitignore for java
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+**/target/
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+## .gitignore for intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## .gitignore for eclipse
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+deploy-dev/
+rebel.xml
